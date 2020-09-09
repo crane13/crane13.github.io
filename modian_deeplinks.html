@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Modian DeepLinks</title>
+</head>
+<script type="text/javascript">
+function showToast() {
+
+
+       var token = window.appInterface.onGetUserInfo();
+      alert(token);
+   }
+function uploadUserInfo() {
+
+       alert("uploadUserInfo" );
+   }
+function uploadUserInfo(response) {
+
+       alert("uploadUserInfo" + JSON.stringify(response));
+   }
+
+   function jumpAppPage(){
+   window.appInterface.jumpToAppPage('https://huodong.modian.com/subject_new/index/59');
+   }
+
+</script>
+<body>
+
+DeepLinks
+<input type="button" value="获取原生token"
+       onClick="showToast()"/>
+
+<input type="button" value="跳转原生"
+       onClick="jumpAppPage()"/>
+
+<br/>
+<br/>
+<br/>
+
+抽奖结果
+<br/>
+<a href="md://prizeDraw?id=123">md://prizeDraw?id=123</a>
+<br/>
+<br/>
+<br/>
+
+早鸟日历
+<br/>
+<a href="md://calendar_fresh_project">md://calendar_fresh_project</a>
+<br/>
+<br/>
+
+
+末班车日历
+<br/>
+<a href="md://calendar_lastbus_project">md://calendar_lastbus_project</a>
+<br/>
+<br/>
+电商-商城首页
+<br/>
+<a href="md://mall_homepage?category=rank">md://mall_homepage?category=rank </a>
+<br/>
+<br/>
+
+LinkedMe 设置
+<br/>
+<a href="https://lkme.cc/qED/5UDkv0Y9P">https://lkme.cc/qED/5UDkv0Y9P</a>
+<br/>
+<br/>
+
+LinkedMe 测试
+<br/>
+<a href="https://lkme.cc/qED/ueMuWFEJP">https://lkme.cc/qED/ueMuWFEJP</a>
+<br/>
+<br/>
+
+发起项目
+<br/>
+<a href="md://create_project">md://create_project</a>
+<br/>
+<br/>
+
+交易物流列表
+<br/>
+<a href="md://message_logistics">md://message_logistics</a>
+<br/>
+<br/>
+我发起的项目列表
+<br/>
+<a href="md://createProList">md://createProList</a>
+<br/>
+<br/>
+他人发起的项目列表
+<br/>
+<a href="md://createProList?id=1499174">md://createProList?id=1499174</a>
+<br/>
+我发起的一起筹
+<br/>
+<a href="md://createTeamfundList">md://createTeamfundList</a>
+<br/>
+<br/>
+他人发起的一起筹
+<br/>
+<a href="md://createTeamfundList?id=1499174">md://createTeamfundList?id=1499174</a>
+<br/>
+<br/>
+我的勋章墙
+<br/>
+<a href="md://medalList">md://medalList</a>
+<br/>
+<br/>
+
+项目二级页面
+<a href="md://projectList?category=rank">md://projectList?category=rank</a>
+<br/>
+
+商铺主页
+<br/>
+<a href="md://mall_shopProList?id=8">md://mall_shopProList?id=8</a>
+<br/>
+
+<br/>
+<a href="md://mall_proList?category=rank&rank=week">md://mall_proList?category=rank&rank=week</a>
+<br/>
+
+我的优惠券：
+<br/>
+<a href="md://my_couponList?type=expired">md://my_couponList?type=expired</a>
+<br/>
+<br/>
+<a href="md://my_couponList?type=unused">md://my_couponList?type=unused</a>
+<br/>
+<br/>
+<a href="md://my_couponList?type=used">md://my_couponList?type=used</a>
+<br/>
+领券中心：
+<br/>
+<a href="md://coupon_center">md://coupon_center</a>
+<br/>
+课程详情-linkedme：
+<br/>
+<a href="https://lkme.cc/qED/UkTUMZHnM">https://lkme.cc/qED/UkTUMZHnM</a>
+<br/>
+<a href="https://lkme.cc/qED/muLJ3hHnM">https://lkme.cc/qED/muLJ3hHnM</a>
+<br/>
+<br/>
+沈亚伟测试
+<br/>
+<a href="https://lkme.cc/qED/ynjfJ4i0O">打开App https://lkme.cc/qED/ynjfJ4i0O</a>
+<br/>
+linkedme跳转
+<br/>
+<a href="https://lkme.cc/qED/ybJwhAzHO?uid=2397492374938">打开App
+    https://lkme.cc/qED/ybJwhAzHO?uid=2397492374938</a>
+<br/>
+<br/>
+<br/>
+课程详情：
+<br/>
+<a href="md://course_detail?id=10002">md://course_detail?id=10002</a>
+<br/>
+<br/>
+课程详情：
+<br/>
+<a href="md://course_detail?id=10002">md://course_detail?id=10002</a>
+<br/>
+<br/>
+商品详情：
+<a href="md://mall_detail?id=1310720&utm_source=111&utm_medium=222&utm_campaign=xx&utm_term=44&utm_content=xx">md://mall_detail?id=90185033932&utm_source=111&utm_medium=222&utm_campaign=xx&utm_term=44&utm_content=xx</a>
+<br/>
+云养详情－support：
+<a href="https://t.modian.com/project/62538.html?type=support">https://t.modian.com/project/62538.html?type=support</a>
+<br/>
+<br/>
+云养详情－detail：
+<a href="https://t.modian.com/project/62538.html?type=detail">https://t.modian.com/project/62538.html?type=detail</a>
+<br/>
+<br/>
+云养详情－course：
+<a href="https://t.modian.com/project/62538.html?type=course">https://t.modian.com/project/62538.html?type=course</a>
+<br/>
+<br/>
+项目详情：
+<br/>
+<a href="md://project?id=26725">md://project?id=26725</a>
+<br/>
+<br/>
+项目详情：
+<br/>
+<a href="md://project?id=24026&utm_source=111&utm_medium=222&utm_campaign=xx&utm_term=44&utm_content=xx">md://project?id=24026&utm_source=111&utm_medium=222&utm_campaign=xx&utm_term=44&utm_content=xx</a>
+<br/>
+<br/>
+粉丝项目详情：
+<br/>
+<a href="md://project?id=23048&utm_source=111&utm_medium=222&utm_campaign=&utm_term=44&utm_content=">md://project?id=23048&utm_source=111&utm_medium=222&utm_campaign=xx&utm_term=44&utm_content=xx</a>
+<br/>
+<br/>
+订阅详情：
+<br/>
+<a href="md://subscribe_project?id=24025&utm_source=111&utm_medium=222&utm_campaign=xx&utm_term=44&utm_content=x">md://subscribe_project?id=24025&utm_source=111&utm_medium=222&utm_campaign=xx&utm_term=44&utm_content=x</a>
+<br/>
+<br/>
+动态详情：
+<br/>
+<a href="md://post_detail?id=52589">md://post_detail?id=52589</a>
+<br/>
+<a href="md://post?id=52589">md://post?id=52589</a>
+<br/>
+<br/>
+话题详情：
+<br/>
+<a href="md://topic_detail?id=36057">md://topic_detail?id=36057</a>
+<br/>
+<br/>
+专题详情：
+<br/>
+<a href="md://subject_detail?id=59">md://subject_detail?id=59</a>
+<br/>
+<br/>
+项目更新详情：
+<br/>
+<a href="md://update_detail?id=16664">md://update_detail?id=16664</a>
+<br/>
+<br/>
+一起筹详情：
+<br/>
+<a href="md://teamfund?id=4661&utm_source=111&utm_medium=222&utm_campaign=xx&utm_term=44&utm_content=x">md://teamfund?id=4661&utm_source=111&utm_medium=222&utm_campaign=xx&utm_term=44&utm_content=x</a>
+<br/>
+<br/>
+众筹列表：
+<br/>
+<a href="md://projectList?category=games">md://projectList?category=games</a>
+<br/>
+<br/>
+云养计划列表：
+<br/>
+<a href="md://subscribeList?category=comics">md://subscribeList?category=comics</a>
+<br/>
+<br/>
+登陆：
+<br/>
+<a href="md://login">md://login</a>
+
+<br/>
+<br/>
+用户中心：
+<br/>
+<a href="md://ucenter?id=1463718">md://ucenter?id=1463718</a>
+<br/>
+<br/>
+首页－动态－关注：
+<br/>
+<a href="md://tab_dynamic_focus">md://tab_dynamic_focus</a>
+<br/>
+<br/>
+发起：
+<br/>
+<a href="md://initiate">md://initiate</a>
+<br/>
+<br/>
+账号与安全
+<br/>
+<a href="md://user_security">md://user_security</a>
+<br/>
+<br/>
+</body>
+</html>
